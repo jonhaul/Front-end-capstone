@@ -1,0 +1,15 @@
+.about-text {
+    color: red;
+    background-color: blue;
+    font-size: larger
+}
+
+@media screen and (max-width: 960px) {
+    .about-text {
+        color: red;
+        background-color: blue;
+        font-size: smaller
+    }
+
+}
+    

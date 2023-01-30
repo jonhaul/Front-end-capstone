@@ -1,0 +1,13 @@
+.contact-wrap {
+    justify-content: center;
+    font-size: larger;
+    
+}
+
+@media screen and (max-width: 960px) {
+    .contact-wrap {
+        justify-content: center;
+        font-size: smaller;
+        
+    }
+}
