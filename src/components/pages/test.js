@@ -23,7 +23,7 @@ export default class Test extends Component {
     }
 
     handleSubmit(event) {
-        fetch('http://127.0.0.1:5000/pix/add', {
+        fetch('https://capstone2-backend.herokuapp.com/pix/add', {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({
