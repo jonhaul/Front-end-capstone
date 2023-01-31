@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Link }  from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPalette } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+library.add(faPalette)
 
 export default function Navbar() {
     
@@ -18,7 +21,7 @@ export default function Navbar() {
         <nav className="nav-bar">
             <div className="nav-bar-cont">
                 <Link to="/test" className="nav-logo">
-                    <FontAwesomeIcon icon="faPalette" />
+                    <FontAwesomeIcon icon="palette" />
                 </Link>
                
                 <ul className='nav-menu'>
