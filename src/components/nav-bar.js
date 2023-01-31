@@ -26,7 +26,7 @@ export default function Navbar() {
     
         <nav className="nav-bar">
             <div className="nav-bar-cont">
-                <Link to="/" className="nav-logo">
+                <Link to="/test" className="nav-logo">
                     <FontAwesomeIcon icon="palette" />
                 </Link>
                
