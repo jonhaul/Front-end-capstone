@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/nav-bar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { faPalette } from "@fortawesome/free-solid-svg-icons";
 import Home from './pages/home';
 import Contact from './pages/contact';
 import Gallery from './pages/gallery';
@@ -10,7 +9,7 @@ import About from './pages/about';
 
 
 
-library.add(faPalette, faTimes, faBars);
+
 
 
 
