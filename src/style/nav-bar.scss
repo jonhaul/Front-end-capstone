@@ -1,16 +1,10 @@
-// .nav-bar-wrap {
-//   // position: relative;
-// }
-
 .nav-bar {
     background: linear-gradient(90deg, #911b1b 0%, rgb(172, 22, 22) 100%);
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    // position: sticky;
-    // top: 0;
-    // z-index: 999;
+  
   }
   
   .nav-bar-cont {
@@ -154,82 +148,6 @@
       display: none;
     }
     
-    // .NavbarItems {
-    //   position: relative;
-    // }
-  
-    // .nav-menu {
-    //   display: grid;
-    //   grid-template-columns: 1fr 1fr 1fr 1fr;
-    //   gap: 2px;
-    //   // width: 100%;
-    //   // height: 90vh;
-    //   // position: absolute;
-    //   // top: 60px;
-    //   // left: 100%;
-    //   // justify-content: flex-end;
-    //   opacity: 1;
-    //   transition: all 0.5s ease;
-    // }
-  
-    // .nav-menu.active {
-    //   background: #242222;
-    //   left: 0;
-    //   opacity: 1;
-    //   transition: all 0.5s ease;
-    //   z-index: 1;
-    // }
-  
-    // .nav-links {
-    //   text-align: center;
-    //   padding: 2rem;
-    //   // width: 100%;
-    //   display: table;
-    // }
-  
-    // .nav-links:hover {
-    //   background-color: rgb(16, 13, 233);
-    //   color: #242424;
-    //   border-radius: 0;
-    // }
-  
-    // .navbar-logo {
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   transform: translate(25%, 50%);
-    // }
-  
-    // .menu-icon {
-    //   display: block;
-    //   position: absolute;
-    //   top: 0;
-    //   right: 0;
-    //   transform: translate(-100%, 60%);
-    //   font-size: 1.8rem;
-    //   cursor: pointer;
-    // }
-  
     
-    // .nav-links-mobile {
-    //   display: block;
-    //   text-align: center;
-    //   margin: 2rem auto;
-    //   border-radius: 4px;
-    //   // width: 80%;
-    //   text-decoration: none;
-    //   font-size: 1.5rem;
-    //   background-color: transparent;
-    //   color: rgb(16, 13, 233);
-    //   padding: 14px 20px;
-    //   border: 1px solid rgb(16, 13, 233);
-    //   transition: all 0.3s ease-out;
-    // }
-  
-    // .nav-links-mobile:hover {
-    //   background: rgb(16, 13, 233);
-    //   color: #242424;
-    //   transition: 250ms;
-    // }
   }
   
